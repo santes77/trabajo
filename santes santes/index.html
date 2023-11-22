@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" type="text/css"href="css/index.css"/>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Pagina</title>
+</head>
+<body>
+    <h1 id="titulo">Mi Hoja De Vida</h1>
+   
+    
+</body>
+<p> Puedes acceder al menu de la hoja de vida haciendo click a los siguientes enlaces 
+
+<p>
+<a href="datospersonales.html"> Datos Personales</a>.
+</p>
+<p>
+    <a href="experiencialaboral.html"> Experiencia Laboral</a>.
+    </p>
+    <p>
+        <a href="experienciacademica.html"> Experiencia Academica</a>.
+        </p>
+        <p>
+            <a href="habilidadeslaborales.html"> Habilidades Laborales</a>.
+            </p>
+            <p>
+                <a href="conctactos.html">conctactos</a>.
+
+                </p>
+                <p>
+                    <a href="Nueva carpeta/formato-hoja-de-vida FERNANDO.pdf"> Hoja De Vida Archivo PDF</a>.
+                    </p><form action="procesar.php" method="post" enctype="multipart/form-data">
+            <!-- Campos del formulario aquí -->
+          </form>
+        
+          <input type="file" name="archivos[]" multiple>
+        <body>
+        <?php
+        if(isset($_FILES['archivos'])){
+          $total = count($_FILES['archivos']['name']);
+          for($i=0; $i<$total; $i++){
+            $nombreArchivo = $_FILES['archivos']['name'][$i];
+            $rutaArchivo = $_FILES['archivos']['tmp_name'][$i];
+            // Procesar el archivo aquí (guardarlo, mostrarlo, etc.)
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/Hm1YFszJWbQ?si=fxTOjDJ_Sf_8nEDr" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          }
+        }
+        <script src="" async defer></script>
+                   <a href=""></a>
+                    
+                    
+</html>
+
+
+
+
+
+
+
+
+
